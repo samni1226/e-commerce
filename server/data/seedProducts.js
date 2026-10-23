@@ -1,0 +1,148 @@
+// Initial catalog seeded into the database the first time the server runs.
+// Photos are free-to-use stock photography from Pexels (no attribution required).
+module.exports = [
+  // ---------- Electronics ----------
+  {
+    id: 2001,
+    title: 'Wireless Over-Ear Headphones',
+    price: 59.99,
+    description: 'Comfortable wireless headphones with crisp sound, a padded headband, and an all-day battery for music, calls, and everything in between.',
+    category: 'electronics',
+    image: 'https://images.pexels.com/photos/3394648/pexels-photo-3394648.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.5, count: 214 },
+  },
+  {
+    id: 2002,
+    title: 'Fitness Smartwatch',
+    price: 89.0,
+    description: 'Track workouts, heart rate, and notifications from your wrist with a bright always-on display and multi-day battery life.',
+    category: 'electronics',
+    image: 'https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.3, count: 167 },
+  },
+  {
+    id: 2003,
+    title: 'Slim Ultrabook Laptop',
+    price: 749.0,
+    description: 'A lightweight, fast laptop built for everyday work and study, with a crisp display and a full day of battery life.',
+    category: 'electronics',
+    image: 'https://images.pexels.com/photos/8532753/pexels-photo-8532753.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.6, count: 98 },
+  },
+
+  // ---------- Jewelry ----------
+  {
+    id: 2004,
+    title: 'Gold Star Pendant Necklace',
+    price: 34.99,
+    description: 'A delicate gold-tone chain with a sparkling star pendant, dressy enough for evenings and simple enough for every day.',
+    category: 'jewelery',
+    image: 'https://images.pexels.com/photos/7134458/pexels-photo-7134458.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.4, count: 88 },
+  },
+  {
+    id: 2005,
+    title: 'Silver Gemstone Ring',
+    price: 24.5,
+    description: 'A polished silver-tone ring set with a clear gemstone centerpiece, a versatile everyday statement piece.',
+    category: 'jewelery',
+    image: 'https://images.pexels.com/photos/1395306/pexels-photo-1395306.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.2, count: 61 },
+  },
+
+  // ---------- Men's Clothing ----------
+  {
+    id: 2006,
+    title: "Men's Formal Accessories Set",
+    price: 42.0,
+    description: 'A coordinated set of dress shoes, sunglasses, and cufflinks to complete a sharp, formal look.',
+    category: "men's clothing",
+    image: 'https://images.pexels.com/photos/28719728/pexels-photo-28719728.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.1, count: 53 },
+  },
+  {
+    id: 2007,
+    title: "Men's Wedding Essentials Set",
+    price: 55.0,
+    description: 'Classic suit shoes and accessories styled together for weddings, interviews, and other occasions that call for polish.',
+    category: "men's clothing",
+    image: 'https://images.pexels.com/photos/32927610/pexels-photo-32927610.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.3, count: 40 },
+  },
+
+  // ---------- Women's Clothing ----------
+  {
+    id: 2008,
+    title: "Women's Structured Handbag",
+    price: 48.0,
+    description: 'A soft pink structured handbag with a roomy interior, finished with gold-tone hardware for a polished everyday look.',
+    category: "women's clothing",
+    image: 'https://images.pexels.com/photos/3808249/pexels-photo-3808249.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.5, count: 121 },
+  },
+  {
+    id: 2009,
+    title: "Women's Boho Summer Set",
+    price: 39.99,
+    description: 'A breezy, boho-inspired outfit with warm neutral tones and layered accessories, perfect for sunny days.',
+    category: "women's clothing",
+    image: 'https://images.pexels.com/photos/5405644/pexels-photo-5405644.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.4, count: 76 },
+  },
+
+  // ---------- Beauty (OurKart's curated line) ----------
+  {
+    id: 1001,
+    title: 'Velvet Matte Lipstick — Rosewood',
+    price: 14.99,
+    description: 'A soft-matte lipstick that glides on smooth and stays put all day, in a dusty rosewood shade that flatters every skin tone.',
+    category: 'beauty',
+    image: 'https://images.pexels.com/photos/2586073/pexels-photo-2586073.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.6, count: 128 },
+  },
+  {
+    id: 1002,
+    title: 'Dewy Glow Liquid Highlighter',
+    price: 16.0,
+    description: 'A lightweight, buildable highlighter that melts into skin for a natural lit-from-within glow. Works over or under makeup.',
+    category: 'beauty',
+    image: 'https://images.pexels.com/photos/4938498/pexels-photo-4938498.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.8, count: 96 },
+  },
+  {
+    id: 1003,
+    title: 'Petal Blush Duo Palette',
+    price: 22.0,
+    description: 'Two blendable blush shades in one compact — a soft pink and a warm coral — for a flushed, healthy cheek in seconds.',
+    category: 'beauty',
+    image: 'https://images.pexels.com/photos/7290674/pexels-photo-7290674.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.5, count: 74 },
+  },
+  {
+    id: 1004,
+    title: 'Precision Liquid Eyeliner',
+    price: 11.99,
+    description: 'A fine-tip liquid liner for crisp, smudge-proof lines, from a subtle everyday flick to a bold wing.',
+    category: 'beauty',
+    image: 'https://images.pexels.com/photos/2693644/pexels-photo-2693644.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.4, count: 152 },
+  },
+  {
+    id: 1005,
+    title: 'Silk Setting Powder',
+    price: 18.5,
+    description: 'A featherweight, translucent powder that locks in makeup and blurs pores for a soft-focus finish that lasts all day.',
+    category: 'beauty',
+    image: 'https://images.pexels.com/photos/6421207/pexels-photo-6421207.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.7, count: 61 },
+  },
+  {
+    id: 1006,
+    title: 'Rosewater Tinted Lip Gloss',
+    price: 9.99,
+    description: 'A sheer, hydrating gloss infused with rosewater for a plumped, glassy finish with a barely-there tint.',
+    category: 'beauty',
+    image: 'https://images.pexels.com/photos/3373740/pexels-photo-3373740.jpeg?auto=compress&cs=tinysrgb&w=600',
+    rating: { rate: 4.9, count: 203 },
+  },
+];
